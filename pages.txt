@@ -1,0 +1,23 @@
+1. Concept page
+2. Landing page
+3. sign in page
+4. register and create profile page
+5. forgot password page
+6. create assignment page
+7. Submit assignment page
+8. Track assignment page
+
+
+mobile apps
+
+
+--------------------
+
+create assignment page
+----------------------
+
+-Title
+-Description
+-Type of assignment (video need to be done, caption image, 
+- select people to send the assignments
+-

@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/form-elements.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Favicon and touch icons -->
+    <title>#</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- box header -->
+        <header class="box-header">
+            <div class="box-logo" style="padding-top:10px;">
+                <a href="index.html"> <img src="logo.png" width="70" alt="Logo"></a>
+            </div>
+            <div style="margin-top:-57px; margin-right:65px;">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">  <h5 class="box-logo-text letters"><i class="fa fa-bell"></i></h5></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="create_profile_wizard.html" class="nav-link"> <h6 class="box-logo-text letters"><b>Profile</b></h6></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="box-primary-nav-trigger" href="#0">
+                            <h6 class="box-logo-text letters"><b><span class="box-menu-icon"></span></b></h6>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- end box header -->
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">What is this about</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="contact.html">contact us</a></li>
+
+
+
+                <li class="box-label">Follow me</li>
+
+                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+
+    </div>
+
+    <div class="container main-container">
+        <div class="row text-center">
+            <div class="col-sm">
+
+            </div>
+
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 form-box">
+                <form role="form" action="" method="post" class="f1">
+                    <h5 class="box-logo-text letters"><b>Create Assignment for #</b></h5>
+                    <p></p>
+                    <div class="f1-steps">
+                        <div class="f1-progress">
+                            <div class="f1-progress-line" data-now-value="16.66" data-number-of-steps="3" style="width: 16.66%;"></div>
+                        </div>
+                        <div class="f1-step active">
+                            <div class="f1-step-icon"><i class="fa fa-info"></i></div>
+                            <p>Info</p>
+                        </div>
+                        <div class="f1-step">
+                            <div class="f1-step-icon"><i class="fa fa-file"></i></div>
+                            <p>Type</p>
+                        </div>
+                        <div class="f1-step">
+                            <div class="f1-step-icon"><i class="fa fa-share"></i></div>
+                            <p>Share</p>
+                        </div>
+                    </div>
+
+                    <fieldset>
+                        <h4>Something about assignment:</h4>
+                        <div class="form-group">
+
+                            <input type="text" name="f1-title" placeholder="Title..." class="f1-title form-control" id="f1-title">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="f1-description" placeholder="Description..."
+                                      class="f1-description form-control" id="f1-description"></textarea>
+                        </div>
+                        <div class="f1-buttons">
+                            <button type="button" class="btn btn-next">Next</button>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <h4>Set up your account:</h4>
+                        <div class="form-group">
+                            <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Select Type of Assignment
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Caption Image</a>
+                                    <a class="dropdown-item" href="#">Video Creation</a>
+                                    <a class="dropdown-item" href="#">Question & Answer</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="f1-assigment" placeholder="Something About Assigment ..."
+                                      class="f1-assigment form-control" id="f1-assigment"></textarea>
+                        </div>
+
+                        <div class="f1-buttons">
+                            <button type="button" class="btn btn-previous">Previous</button>
+                            <button type="button" class="btn btn-next">Next</button>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <h4>Social media profiles:</h4>
+                        <div class="form-group">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action active">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">User #Name1</h5>
+                                        <small>Class #Class1</small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                    <small>Donec id elit non mi porta.</small>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">User #Name2</h5>
+                                        <small class="text-muted">Class #Class2</small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">User #Name3</h5>
+                                        <small class="text-muted">Class #Class3</small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="f1-twitter">Twitter</label>
+                            <input type="text" name="f1-twitter" placeholder="Twitter..." class="f1-twitter form-control" id="f1-twitter">
+                        </div>
+                        <div class="f1-buttons">
+                            <button type="button" class="btn btn-previous">Previous</button>
+                            <button type="submit" class="btn btn-submit">Submit</button>
+                        </div>
+                    </fieldset>
+
+                </form>
+            </div>
+            <div class="col-sm"></div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">© Say No To 2020</p>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+    <!--[if lt IE 10]>
+        <script src="assets/js/placeholder.js"></script>
+    <![endif]-->
+</body>
+
+</html>

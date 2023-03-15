@@ -1,0 +1,62 @@
+1. register, signup, signin and signout flow
+2. profile creation with options to choose college/school and class, whether you are as watcher or normal.+ your social profile.
+3. landing page with your college/school members with class and ask you to be volunteer and list of some users whom you can ragg and by whom you can be ragged.
+4. either you can choose to be ragged from selected users as well as you can choose users to ragg. When you accept or other accept you request to be ragged, you both would be sync for ragging. Watcher would be able to see all the ragging assignments. But conversation between you both would be by default private, which can be opened for watcher as well as for open forum.
+5. Assignments would be like making some activity video, rapid question round (when whosoever are going to be ragged show status for availabity of ragging), some more assignment according to subject or some event or organizing some event.
+6. Ragger can also ask some question to seniors and ask for help.
+7. Ragger can also raise alarm to watcher if assignments are not appropriate.
+8. Ragging Index - a new parameter
+9. Share you assigments directly from portal to social circle.
+10.  
+
+
+
+=---------------------
+
+
+
+
+Profile Creation Wizard
+Page 1: basic user information
+Page 2: College/school and class information
+Page 3: Interest
+
+
+1. basic user information
+---- User Name
+---- First Name
+---- Last Name
+---- Age
+---- 
+
+
+name
+username
+school or college
+class
+subject
+
+
+
+
+---- On a individual card
+----------------------------------
+
+
+
+
+
+
+
+------------------------------------
+
+
+
+user login, register and forgot password flow
+------------------------------------------------
+1. Ask for login --- email id and password
+2. If user already registered-- check email id and password (need to verify storation technique) and sent to login page
+3. Option for facebook login where need user information would be stored against facebook id
+4. if not registered then, ask for registration, where user has to provide email id and password which would eventually send email to user with createprofile option
+5. If user opting for facebook login then as soon as facebook login done, user asked for createprofile option
+6. 
